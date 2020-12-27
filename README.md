@@ -1,73 +1,48 @@
-# Course project template
+# Replication of Patricia Cortés and José Tessada 2011 Low-Skilled Immigration and the Labor Supply of Highly Skilled Women
+ The notebook replicates the results from the following paper:
 
-This is a template for course projects. We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects and so you need to sign up for a [GitHub Account](http://github.com).
+ > Cortés, Patricia, and José Tessada. 2011. "Low-Skilled Immigration and the Labor Supply of Highly Skilled Women." American Economic Journal: Applied Economics, 3 (3): 88-123
 
-## Project overview
+## Introduction about project
 
-Please ensure that a brief description of your project is included in the [README.md](https://github.com/HumanCapitalAnalysis/template-course-project/blob/master/README.md), which provides a proper citation of your baseline article. Also, please set up the following badges that allow to easily access your project notebook.
+> ...they mow flawns, flip burgers, attend to the needs of babies or sick people. So when there are more migrants, the price of those services tends to go down, which helps the native workers and frees them to take on other jobs. Highly skilled women, in particular, are more likely to be able to go out to work when there are many migrants around. The entry of highly skilled women to the labor market in turn boosts demand for low-skilled labor (childcare, catering, cleaning) at home or in the firms they manage or run.
+*(Good Economics for Hard Times - Abhijit V. Banerjee and Esther Duflo)*
 
-<a href="https://nbviewer.jupyter.org/github/HumanCapitalAnalysis/template-course-project/blob/master/example_project.ipynb"
+Although it has long been believed that low-skilled workers all bring negative effect on natives. Many recent empirical researchs on influx of migrants to many cities found no evidence of unambiguously negative impacts. The question about effects of low-skilled immigrants on natives has been an important part of the discussion on immigration policies in many developed countries. Using instrumental variables approach, Cortés, Patricia, and José Tessada. 2011 exploit how low-skilled workers affect time-use decision of highly-skilled native women. In this paper, the authors find that the low-skilled immigration in the 1980s and 1990s increased the working time on the market of native women in the top quartile of wage distribution by about 20 minutes a week and increase significantly the probability of women working more than 50 and 60 hours.
+
+<a href="https://nbviewer.jupyter.org/github/HumanCapitalAnalysis/microeconometrics-course-project-duongthu/blob/master/Low-Skilled_Immigration_and_the_women_Labor_Supply.ipynb"
    target="_parent">
    <img align="center"
   src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.png"
       width="109" height="20">
 </a>
-<a href="https://mybinder.org/v2/gh/HumanCapitalAnalysis/template-course-project/master?filepath=example_project.ipynb"
+<a href="https://mybinder.org/v2/gh/HumanCapitalAnalysis/microeconometrics-course-project-duongthu/master?filepath=Low-Skilled_Immigration_and_the_women_Labor_Supply.ipynb"
     target="_parent">
     <img align="center"
        src="https://mybinder.org/badge_logo.svg"
        width="109" height="20">
 </a>
 
-## Reproducibility
+[![Build Status](https://travis-ci.org/HumanCapitalAnalysis/template-course-project.svg?branch=master)](https://travis-ci.org/github/HumanCapitalAnalysis/microeconometrics-course-project-duongthu)
 
-To ensure full reproducibility of your project, please try to set up a [Travis CI](https://travis-ci.org) as your continuous integration service. An introductory tutorial for [conda](https://conda.io) and [Travis CI](https://docs.travis-ci.com/) is provided [here](https://github.com/HumanCapitalAnalysis/template-course-project/blob/master/tutorial_conda_travis.ipynb). While not at all mandatory, setting up a proper continuous integration workflow is an extra credit that can improve the final grade.
 
-[![Build Status](https://travis-ci.org/HumanCapitalAnalysis/template-course-project.svg?branch=master)](https://travis-ci.org/HumanCapitalAnalysis/template-course-project)
+## References
 
-In some cases you might not be able to run parts of your code on  [Travis CI](https://travis-ci.org) as, for example, the computation of results takes multiple hours. In those cases you can add the result in a file to your repository and load it in the notebook. See below for an example code.
-
-```python
-# If we are running on TRAVIS-CI we will simply load a file with existing results.
-if os.environ['TRAVIS']:
-  rslt = pkl.load(open('stored_results.pkl', 'br'))
-else:
-  rslt = compute_results()
-
-# Now we are ready for further processing.
-...
-```
-
-However, if you decide to do so, please be sure to provide an explanation in your notebook explaining why exactly this is required in your case.
-
-## Structure of notebook
-
-A typical project notebook has the following structure:
-
-* presentation of baseline article with proper citation and brief summary
-
-* using causal graphs to illustrate the authors' identification strategy
-
-* replication of selected key results
-
-* critical assessment of quality
-
-* independent contribution, e.g. additional external evidence, robustness checks, visualization
-
-There might be good reason to deviate from this structure. If so, please simply document your reasoning and go ahead. Please use the opportunity to review other student projects for some inspirations as well.
-
-## Project Example
-
-The notebook [example_project.ipynb](https://github.com/HumanCapitalAnalysis/template-course-project/blob/master/example_project.ipynb) contains an example project by [Annica Gehlen](https://github.com/amageh) from the 2019 iteration of the [Mircoeconometrics](https://github.com/HumanCapitalAnalysis/microeconometrics) class at Bonn University. It replicates the results from the following paper:
-
-* Lindo, J. M., Sanders, N. J., & Oreopoulos, P. (2010). [Ability, Gender, and Performance Standards: Evidence from Academic Probation](https://www.aeaweb.org/articles?id=10.1257/app.2.2.95). *American Economic Journal: Applied Economics*, 2(2), 95-117.
-
-Lindo et al. (2010) examine the effects of academic probation on student outcomes using a regression discontinuity design. The analysis is based on data from a large Canadian university and evaluates whether academic probation is successful in improving the performance of low scoring students. Consistent with a model of performance standards, the authors find that being placed on probation in the first year of university induces some students to drop out of school while it improves the grades of students who continue their studies. In a more general sense, academic probation can offer insights into how agents respond to negative incentives and the threat of punishment in a real-world context.
-
-## Frequently asked questions and answers
-
-* *Where can I look for publications that provide the data behind their research?* Some journals provide the data for their published articles as data supplements directly on their website. In addition, the [Replication Wiki](http://replication.uni-goettingen.de/wiki/index.php/Main_Page)  and the [Harvard Dataverse](https://dataverse.harvard.edu) compile a lot such information.
-
-* *What are other useful resources for research data?* There is a tremendous amount of data available online. For example, MDRC provides a host of data files for public use [here](https://www.mdrc.org/available-public-use-files) from the evaluation of public policy initiatives. More generally, [Google Dataset Search](https://datasetsearch.research.google.com) allows to look for all kinds of online data. 
+* Abhijit V. Banerjee, Esther Duflo, "Good Economics for Hard Times" PublicAffairs (November 12, 2019)
+* [Albrecht Glitz](https://www.jstor.org/stable/10.1086/662143?seq=1), . "The Labor Market Impact of Immigration: A Quasi-Experiment Exploiting Immigrant Location Rules in Germany," Journal of Labor Economics, University of Chicago Press, vol. 30(1), pages 175-213.
+* [Bertrand, Marianne, Claudia Goldin, and Lawrence F. Katz. 2010](https://www.aeaweb.org/articles?id=10.1257/app.2.3.228). "Dynamics of the Gender Gap for Young Professionals in the Financial and Corporate Sectors." American Economic Journal: Applied Economics, 2 (3): 228-55.
+* [Borjas, George. (2003)](https://academic.oup.com/qje/article-abstract/118/4/1335/1925108). The Labor Demand Curve Is Downward Sloping: Reexamining The Impact Of Immigration On The Labor Market. The Quarterly Journal of Economics. 118. 1335-1374. 
+* Borjas, George J. Labor Economics. Boston: McGraw-Hill/Irwin, 2008. Print.
+* Colin Cameron & Pravin K. Trivedi, 2010. "Microeconometrics Using Stata, Revised Edition," Stata Press books, StataCorp LP, number musr, April
+* [Cortes, Patricia. 2008](https://www.jstor.org/stable/10.1086/589756?seq=1). “The Effect of Low-Skilled Immigration on U.S. Prices: Evidence from CPI Data.” Journal of political Economy, 116(3): 381–422.
+* [Cortés, Patricia, and José Tessada. 2011](https://www.aeaweb.org/articles?id=10.1257/app.3.3.88). "Low-Skilled Immigration and the Labor Supply of Highly Skilled Women." American Economic Journal: Applied Economics, 3 (3): 88-123.
+* [Juhn, Chinhui, and Kevin M. Murphy](https://www.jstor.org/stable/2535315?seq=1), “Wage Inequality and Family Labor Supply,” Journal of Labor Economics 15 (January 1997 Part 1):  72-97.
+* Gehlen, A. (2019). Course-project-template. https://github.com/HumanCapitalAnalysis/template-course-project
+* [Gordon Hanson & Chen Liu & Craig McIntosh, 2017.](https://www.nber.org/papers/w23753) "The Rise and Fall of U.S. Low-Skilled Immigration," Brookings Papers on Economic Activity, vol 2017(1), pages 83-168
+* Our World in Data https://ourworldindata.org/female-labor-force-participation-key-facts
+* [Ottaviano, Gianmarco and Giovanni Peri](https://www.nber.org/papers/w12497). “Rethinking the Effects of Immigration on Wages: New Data and Analysis from 1990- 2004” IPC IN FOCUS, the American Immigration Law Foundation's Immigration Policy Center 5, 8 (October 2006)
+* Pew Research Center (https://www.pewresearch.org/hispanic/2019/06/03/facts-on-u-s-immigrants-county-maps/)
+* [Ran Abramitzky & Leah Boustan, 2017.](https://www.aeaweb.org/articles?id=10.1257/jel.20151189) "Immigration in American Economic History," Journal of Economic Literature, vol 55(4), pages 1311-1345
+* [Sandra Sequeira, Nathan Nunn, Nancy Qian](https://academic.oup.com/restud/article-abstract/87/1/382/5373087), Immigrants and the Making of America, The Review of Economic Studies, Volume 87, Issue 1, January 2020, Pages 382–419,
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/HumanCapitalAnalysis/template-course-project/blob/master/LICENSE)
