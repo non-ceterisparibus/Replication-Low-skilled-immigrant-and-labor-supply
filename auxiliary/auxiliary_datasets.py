@@ -43,7 +43,7 @@ def data_table3():
     df['agesq'] = np.square(df['age'])
     
     # conditional usual hours worked uhrswork=0|99
-    df=uhrworks(df)
+    df = uhrworks(df)
     
     return df
 
@@ -74,15 +74,15 @@ def data_table4():
     df=pd.merge(df,wage_percent,on=['regioncd','year'],how='outer')
     
     #Edit df
-    df=df[(df['weekhswork'].notnull())&(df['region'].notnull())]
+    df = df[(df['weekhswork'].notnull())&(df['region'].notnull())]
     
     return df
 
 def data_table5():
     
-    cex=pd.read_stata('data/cex.dta')
-    instrument=pd.read_stata('data/instrument.dta')
-    wage_percent=pd.read_stata('data/wage_percentiles_by_region.dta')
+    cex = pd.read_stata('data/cex.dta')
+    instrument = pd.read_stata('data/instrument.dta')
+    wage_percent = pd.read_stata('data/wage_percentiles_by_region.dta')
     
     # Edit cex
     cex['hwage']=cex['salaryx2'].div(cex['inc_hrsq2'].mul(cex['incweekq2']))
@@ -110,7 +110,7 @@ def data_table5():
     df.loc[df['year']==1980,'avcost340310']*=1.72
     
     # Edit cost and weights if cost = 0 weight=0
-    df['finlwt']=np.where(df['avcost340310']>0,df['finlwt21'],0)
+    df['finlwt'] = np.where(df['avcost340310']>0,df['finlwt21'],0)
     
     return df
 
@@ -460,7 +460,7 @@ def data_tableA1(data3):
     wage_percent['year'] = wage_percent['year'].astype('int32')
     
     # merge with percentiles from female wage distribution by region
-    df=pd.merge(data3,wage_percent,on=['region','year'],how='outer')
+    df = pd.merge(data3,wage_percent,on=['region','year'],how='outer')
     
     #Generate hwage - table A1
     df['inc_wage']=np.where(df['incwage']>0,df['incwage'],np.nan)
