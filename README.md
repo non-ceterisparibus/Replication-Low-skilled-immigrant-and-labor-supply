@@ -23,7 +23,7 @@ Although it has long been believed that low-skilled workers all bring negative e
        width="109" height="20">
 </a>
 
-[![Build Status](https://travis-ci.org/Thu-Duong/Replication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of.svg?branch=master)](https://travis-ci.org/github/Thu-Duong/Replication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of)
+[![Build Status](https://travis-ci.com/Thu-Duong/Replication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of.svg?branch=master)](https://www.travis-ci.com/github/Thu-Duong/Replication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of)
 
 
 ## References
