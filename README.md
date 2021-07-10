@@ -16,7 +16,7 @@ Although it has long been believed that low-skilled workers all bring negative e
   src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.png"
       width="109" height="20">
 </a>
-<a href="https://mybinder.org/v2/gh/Thu-Duong/Replication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of/master?filepath=https%3A%2F%2Fgithub.com%2FThu-Duong%2FReplication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of%2Fblob%2Fmaster%2FLow-Skilled_Immigration_and_the_women_Labor_Supply.ipynb"
+<a href="https://hub.gke2.mybinder.org/user/thu-duong-repli-labor-supply-of-3y8qsuin/notebooks/Low-Skilled_Immigration_and_the_women_Labor_Supply.ipynb"
     target="_parent">
     <img align="center"
        src="https://mybinder.org/badge_logo.svg"
