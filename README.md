@@ -10,20 +10,20 @@
 
 Although it has long been believed that low-skilled workers all bring negative effect on natives. Many recent empirical researchs on influx of migrants to many cities found no evidence of unambiguously negative impacts. The question about effects of low-skilled immigrants on natives has been an important part of the discussion on immigration policies in many developed countries. Using instrumental variables approach, Cortés, Patricia, and José Tessada. 2011 exploit how low-skilled workers affect time-use decision of highly-skilled native women. In this paper, the authors find that the low-skilled immigration in the 1980s and 1990s increased the working time on the market of native women in the top quartile of wage distribution by about 20 minutes a week and increase significantly the probability of women working more than 50 and 60 hours.
 
-<a href="https://nbviewer.jupyter.org/github/HumanCapitalAnalysis/microeconometrics-course-project-duongthu/blob/master/Low-Skilled_Immigration_and_the_women_Labor_Supply.ipynb"
+<a href="https://nbviewer.jupyter.org/github/Thu-Duong/Replication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of/blob/master/Low-Skilled_Immigration_and_the_women_Labor_Supply.ipynb"
    target="_parent">
    <img align="center"
   src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.png"
       width="109" height="20">
 </a>
-<a href="https://mybinder.org/v2/gh/HumanCapitalAnalysis/microeconometrics-course-project-duongthu/master?filepath=Low-Skilled_Immigration_and_the_women_Labor_Supply.ipynb"
+<a href="https://mybinder.org/v2/gh/Thu-Duong/Replication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of/master?filepath=https%3A%2F%2Fgithub.com%2FThu-Duong%2FReplication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of%2Fblob%2Fmaster%2FLow-Skilled_Immigration_and_the_women_Labor_Supply.ipynb"
     target="_parent">
     <img align="center"
        src="https://mybinder.org/badge_logo.svg"
        width="109" height="20">
 </a>
 
-[![Build Status](https://travis-ci.com/Thu-Duong/Replication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of.svg?branch=master)](https://www.travis-ci.com/github/Thu-Duong/Replication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of)
+# [![Build Status](https://travis-ci.com/Thu-Duong/Replication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of.svg?branch=master)](https://www.travis-ci.com/github/Thu-Duong/Replication-of-Low-Skilled-Immigration-and-the-Labor-Supply-of)
 
 
 ## References
