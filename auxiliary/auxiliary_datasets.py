@@ -39,8 +39,8 @@ def data_table3():
     df['work50']    =np.where(df['uhrswork']>49,1,0)
     df['married']   =np.where(df['marst'].isin(marst_f),1,0)
     df['black']     =np.where(df['race']=="Black/Negro",1,0)
-    df['age']=df['age'].astype('int32')
-    df['agesq']=np.square(df['age'])
+    df['age'] = df['age'].astype('int32')
+    df['agesq'] = np.square(df['age'])
     
     # conditional usual hours worked uhrswork=0|99
     df=uhrworks(df)
@@ -49,14 +49,14 @@ def data_table3():
 
 def data_table4():
     
-    psid_atus=pd.read_stata('data/psid_atus.dta')
-    instrument=pd.read_stata('data/instrument.dta')
-    wage_percent=pd.read_stata('data/wage_percentiles_by_region.dta')
+    psid_atus = pd.read_stata('data/psid_atus.dta')
+    instrument = pd.read_stata('data/instrument.dta')
+    wage_percent = pd.read_stata('data/wage_percentiles_by_region.dta')
     
     #Edit psid_atus
-    psid_atus['metarea']=psid_atus['metaread'].astype('int32')
-    psid_atus['year']=psid_atus['year'].astype('int32')
-    psid_atus['regioncd']=psid_atus['region'].astype('int32')
+    psid_atus['metarea'] = psid_atus['metaread'].astype('int32')
+    psid_atus['year'] = psid_atus['year'].astype('int32')
+    psid_atus['regioncd'] = psid_atus['region'].astype('int32')
     
     #Edit instrument/wage_percent
     instrument['year']=instrument['year'].astype('int32')
